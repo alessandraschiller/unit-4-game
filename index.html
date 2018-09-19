@@ -1,1 +1,55 @@
+<!DOCTYPE = html>
+<html lang="en-us">
+	<head>
+		<meta charset="UTF-8">
+		<title>Star Wars with jQuery!</title>
+		<!-- CSS -->
+		<link href="https://fonts.googleapis.com/css?family=Share+Tech" rel="stylesheet">
+		<!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
+		<link rel="stylesheet" href="assets/css/style.css"> 
+	</head>
 
+<body>
+	<div class="main-section-title">Star Wars RPG!</div>
+	<div id="main-game-section">
+	
+		<!-- Where characters are selected -->
+		<div id="characters-section">
+			<div class="section-title">Select Your Character</div>
+		</div>
+
+		<!-- Selection for our selected character -->
+		<div id="selected-character-section">
+			<div class="section-title">Your Character</div>
+			<div id="selected-character">
+		</div>
+
+		<div id="available-to-attack-section">
+			<div class="section-title">Enemies Available To Attack</div>
+		</div>
+
+		<div class="section-title">Fight Section</div>
+		<div id="fight-section">
+			<button id="attack-button">Attack</button>
+		</div>
+
+		<div id="action">
+			<div class="character-section">
+				<div class="section-title">Defender</div>
+				<!-- Where our defender will appear -->
+				<div id="defender"></div>
+			</div>
+		</div>
+	</div>
+		<!-- Area for game message -->
+		<div id="game-message"></div>
+	</div>
+
+	<!-- jQuery -->
+		<script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+		<!-- Game Logic -->
+		<script type="text/javascript" src="assets/javascript/game.js">
+		</script>
+</body>
+
+</html>
