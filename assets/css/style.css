@@ -1,0 +1,45 @@
+body {
+	font-family: 'Share Tech', Arial, Helvetica, sans-serif;
+	background-image: url(../images/battle-of-hoth.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+img {
+	height: 100px;
+	width: 150px;
+	border-radius: 10px;
+}
+
+.section-title {
+	font-size: 200%;
+}
+.main-section-title {
+	font-size: 400%;
+	text-align: center;
+	color: #ffff00;
+}
+
+.character {
+	display: inline-block;
+	border-style: dotted;
+	border-color: #ffff00;
+	border-width: 3px;
+	cursor: pointer;
+	background-color: black;
+}
+
+.character-image {
+	padding-right: 16px;
+	padding-left: 16px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+.character-name {
+	text-align: center;
+}
+.character-health {
+	text-align: center;
+}
