@@ -5,28 +5,28 @@
  			name: "Yoda",
  			health: 120,
  			attack: 50,
- 			imageUrl: "assets/images/yoda.jpg",
+ 			imageUrl: "../images/yoda.jpg",
  			enemyAttackBack: 15
  		},
  		"Han Solo": {
  			name: "Han Solo",
  			health: 100,
  			attack: 25,
- 			imageUrl: "assets/images/han-solo.jpeg",
+ 			imageUrl: "../images/han-solo.jpeg",
  			enemyAttackBack: 25
  		},
  		"Jar Jar Binks": {
  			name: "Jar Jar Binks",
  			health: 50,
  			attack: 3,
- 			imageUrl: "assets/images/jarjar.jpg",
+ 			imageUrl: "../images/jarjar.jpg",
  			enemyAttackBack: 50
  		},
  		"Jabba the Hutt": {
  			name: "Jabba the Hutt",
  			health: 150,
  			attack: 35,
- 			imageUrl: "assets/images/jabba.jpeg",
+ 			imageUrl: "../images/jabba.jpeg",
  			enemyAttackBack: 25
  		}
  	};
